@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>第3回 石垣島デトックスリトリート｜もう一度私に還る3日間</title>
+  <meta name="description" content="第3回 石垣島デトックスリトリート。波の音をBGMに、肌で風を感じる、石垣島での2泊3日。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root { --gold:#b58a42; --deep:#193b43; --ink:#283234; --sand:#f7f3ec; --white:#fff; }
+    * { box-sizing:border-box; }
+    body { margin:0; color:var(--ink); font-family:'Noto Serif JP',serif; line-height:1.9; background:var(--sand); }
+    .review-note { padding:10px 18px; text-align:center; color:#664b27; background:#fff4c5; font-size:.82rem; letter-spacing:.08em; }
+    .hero { min-height:640px; position:relative; display:grid; place-items:center; overflow:hidden; color:#fff; text-align:center; background:#234b52 url('images/hero.jpg') center/cover no-repeat; }
+    .hero::before { content:''; position:absolute; inset:0; background:linear-gradient(180deg,rgba(11,31,36,.33),rgba(8,32,39,.76)); }
+    .hero-inner { position:relative; z-index:1; padding:80px 24px; max-width:760px; }
+    .eyebrow { display:inline-block; margin:0 0 16px; padding:6px 16px; border:1px solid rgba(255,255,255,.75); border-radius:99px; font-family:Outfit,sans-serif; font-size:.78rem; letter-spacing:.17em; }
+    .event-date { margin:0 0 22px !important; font-family:Outfit,sans-serif; font-size:.9rem !important; letter-spacing:.12em; }
+    h1 { margin:0; font-size:clamp(2.25rem,6.4vw,4.6rem); font-weight:500; line-height:1.35; text-shadow:0 3px 18px rgba(0,0,0,.25); }
+    .hero p { margin:28px auto 0; font-size:1.05rem; }
+    .sea-opening { display:inline-block; margin-top:34px; padding:16px 24px; border-radius:10px; background:rgba(255,255,255,.15); backdrop-filter:blur(7px); font-size:.95rem; }
+    .wrap { width:min(100% - 40px,960px); margin:0 auto; }
+    .intro { padding:100px 0 75px; text-align:center; }
+    .kicker { margin:0 0 14px; color:var(--gold); font-family:Outfit,sans-serif; font-size:.8rem; font-weight:600; letter-spacing:.18em; }
+    h2 { margin:0; font-size:clamp(1.65rem,4vw,2.6rem); font-weight:500; line-height:1.5; }
+    .intro p { max-width:700px; margin:30px auto 0; font-size:1.05rem; }
+    .sun-note { max-width:730px; margin:40px auto 0; padding:24px 30px; border-left:3px solid var(--gold); background:#fff; text-align:left; }
+    .schedule { padding:85px 0 100px; background:#173940 url('images/679217148_1961747531400319_4068514737969951818_n.jpg') center/cover fixed; position:relative; color:#fff; }
+    .schedule::before { content:''; position:absolute; inset:0; background:rgba(12,31,36,.88); }
+    .schedule .wrap { position:relative; z-index:1; }
+    .schedule .kicker { color:#e8c985; }
+    .schedule-head { text-align:center; margin-bottom:42px; }
+    .days { display:grid; gap:24px; }
+    .day { padding:34px 34px 30px; border:1px solid rgba(232,201,133,.4); border-radius:16px; background:rgba(255,255,255,.07); backdrop-filter:blur(10px); }
+    .day-label { display:flex; gap:16px; align-items:baseline; padding-bottom:18px; border-bottom:1px solid rgba(255,255,255,.2); }
+    .day-number { color:#e8c985; font-family:Outfit,sans-serif; font-size:.78rem; font-weight:600; letter-spacing:.16em; }
+    .day h3 { margin:0; font-size:1.55rem; font-weight:500; }
+    .flow { list-style:none; margin:23px 0 0; padding:0; }
+    .flow li { padding:13px 0 13px 28px; position:relative; border-bottom:1px solid rgba(255,255,255,.12); }
+    .flow li:last-child { border-bottom:0; }
+    .flow li::before { content:'◌'; position:absolute; left:0; color:#e8c985; }
+    .sub { display:block; margin-top:5px; color:rgba(255,255,255,.75); font-size:.9rem; }
+    .footnote { margin:32px 0 0; padding:18px 22px; border-radius:10px; background:rgba(232,201,133,.12); font-size:.92rem; }
+    .experience { padding:100px 0; background:#fff; }
+    .experience-grid { display:grid; grid-template-columns:1fr 1fr; gap:30px; align-items:center; margin-top:42px; }
+    .experience img { width:100%; height:350px; display:block; object-fit:cover; border-radius:14px; }
+    .experience-copy { padding:15px 12px; }
+    .experience-copy h3 { margin:0; color:var(--gold); font-size:1.4rem; font-weight:500; }
+    .experience-copy p { margin:20px 0 0; }
+    .closing { padding:85px 24px; text-align:center; color:#fff; background:var(--deep); }
+    .closing p { max-width:680px; margin:24px auto 0; font-size:1.08rem; }
+    .closing small { display:block; margin-top:40px; color:rgba(255,255,255,.65); }
+    .contact-button { display:inline-block; margin-top:30px; padding:14px 28px; border:1px solid #fff; border-radius:999px; color:#fff; text-decoration:none; font-size:.95rem; transition:.25s ease; }
+    .contact-button:hover { background:#fff; color:var(--deep); }
+    @media (max-width:700px) { .hero { min-height:570px; } .intro,.experience { padding:75px 0; } .schedule { padding:70px 0; background-attachment:scroll; } .day { padding:25px 20px; } .experience-grid { grid-template-columns:1fr; } .experience img { height:260px; } .sun-note { padding:20px; } }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-inner">
+      <p class="eyebrow">ISHIGAKI ISLAND RETREAT / VOL.3</p>
+      <p class="event-date">2027年3月後半予定 ｜ 2泊3日</p>
+      <h1>もう一度私に還る<br>3日間</h1>
+      <p>波の音をBGMに、肌で風を感じる。<br>石垣島の自然に、ただ身をゆだねる時間。</p>
+      <div class="sea-opening">第3回リトリートの1週間前に開催される<br><strong>「日本一早い海開き」</strong>で海に入ることも可能です。</div>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro">
+      <div class="wrap">
+        <p class="kicker">3 DAYS FLOW</p>
+        <h2>太陽とともに過ごす、<br>石垣島の3日間。</h2>
+        <p>このリトリートでは、分刻みの予定は決めません。<br>太陽が昇る時間、沈む時間、その日の風や海の表情に合わせて、心地よい流れを選びます。</p>
+        <div class="sun-note">自然のリズムに身をゆだね、予定で埋め尽くさないからこそ生まれる余白を大切にします。</div>
+      </div>
+    </section>
+
+    <section class="schedule">
+      <div class="wrap">
+        <div class="schedule-head">
+          <p class="kicker">SCHEDULE</p>
+          <h2>3日間の過ごし方</h2>
+        </div>
+        <div class="days">
+          <article class="day">
+            <div class="day-label"><span class="day-number">DAY 1</span><h3>石垣島にほどけていく日</h3></div>
+            <ul class="flow">
+              <li>前泊の方と離島ターミナルで集合</li>
+              <li>南ぬ島石垣空港で合流</li>
+              <li>野底岳登山<span class="sub">未就学児でも登れる山です。道路状況によっては中止し、別の美しい景色へご案内します。</span></li>
+              <li>チェックイン</li>
+              <li>腸揉み施術・食事作り・食事・自由時間</li>
+            </ul>
+          </article>
+
+          <article class="day">
+            <div class="day-label"><span class="day-number">DAY 2</span><h3>からだと心を、ゆるめる日</h3></div>
+            <ul class="flow">
+              <li>砂浜を散歩・ラジオ体操・軽いストレッチ体操</li>
+              <li>ゆっくりと朝食作り・朝食</li>
+              <li>片付け・自由時間・腸揉み施術・軽食</li>
+              <li>夕食作り・夕食</li>
+              <li>星空を楽しむ</li>
+            </ul>
+          </article>
+
+          <article class="day">
+            <div class="day-label"><span class="day-number">DAY 3</span><h3>持ち帰るものを、見つける日</h3></div>
+            <ul class="flow">
+              <li>砂浜を散歩・ストレッチ体操・ラジオ体操</li>
+              <li>食事・片付け</li>
+              <li>アンケート入力<span class="sub">紙に手書きで、そのとき感じたことを残します。</span></li>
+              <li>荷物をまとめて、チェックアウト</li>
+            </ul>
+          </article>
+        </div>
+        <p class="footnote">※天候・道路状況・太陽の上がり方や入り方により、内容や順番を変更する場合があります。</p>
+      </div>
+    </section>
+
+    <section class="experience">
+      <div class="wrap">
+        <p class="kicker">THE ISLAND GIVES YOU</p>
+        <h2>予定よりも、感覚を大切に。</h2>
+        <div class="experience-grid">
+          <img src="images/sunny_path.JPEG" alt="石垣島の自然の中の道">
+          <div class="experience-copy">
+            <h3>波の音をBGMに、風を肌で感じる。</h3>
+            <p>ただ景色を見るだけではなく、砂浜を歩き、風を吸い込み、星空を見上げる。石垣島の自然の中で、心とからだの声をゆっくり聴く3日間です。</p>
+            <p>海開きの季節なら、海に入るという選択肢も。あなたにとって心地よい過ごし方を、一緒に見つけます。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="closing">
+    <h2>石垣島で、<br>本来の私に還る。</h2>
+    <p>第3回 石垣島デトックスリトリート<br>日程などの詳細は、決まり次第ご案内します。</p>
+    <a class="contact-button" href="https://lin.ee/xbLCPCN" target="_blank" rel="noopener noreferrer">参加について問い合わせる</a>
+    <small>© 2027 Megu Retreat. All Rights Reserved.</small>
+  </footer>
+</body>
+</html>
